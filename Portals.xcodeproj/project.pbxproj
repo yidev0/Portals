@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1FF3B222DC8B92B002D5608 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = D1FF3B212DC8B92B002D5608 /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D17C0E1D2DB8BDE600BD3C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17C0E042DB8BDE400BD3C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17C0E0B2DB8BDE400BD3C64;
+			remoteInfo = Portal;
+		};
+		D17C0E272DB8BDE600BD3C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17C0E042DB8BDE400BD3C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17C0E0B2DB8BDE400BD3C64;
+			remoteInfo = Portal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D17C0E0C2DB8BDE400BD3C64 /* Portals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17C0E1C2DB8BDE600BD3C64 /* PortalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17C0E262DB8BDE600BD3C64 /* PortalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D17C0E0E2DB8BDE400BD3C64 /* Portal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		D17C0E1F2DB8BDE600BD3C64 /* PortalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PortalTests;
+			sourceTree = "<group>";
+		};
+		D17C0E292DB8BDE600BD3C64 /* PortalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PortalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17C0E092DB8BDE400BD3C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF3B222DC8B92B002D5608 /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E192DB8BDE600BD3C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E232DB8BDE600BD3C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17C0E032DB8BDE400BD3C64 = {
+			isa = PBXGroup;
+			children = (
+				D17C0E0E2DB8BDE400BD3C64 /* Portal */,
+				D17C0E1F2DB8BDE600BD3C64 /* PortalTests */,
+				D17C0E292DB8BDE600BD3C64 /* PortalUITests */,
+				D17C0E0D2DB8BDE400BD3C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D17C0E0D2DB8BDE400BD3C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17C0E0C2DB8BDE400BD3C64 /* Portals.app */,
+				D17C0E1C2DB8BDE600BD3C64 /* PortalsTests.xctest */,
+				D17C0E262DB8BDE600BD3C64 /* PortalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17C0E0B2DB8BDE400BD3C64 /* Portals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17C0E302DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "Portals" */;
+			buildPhases = (
+				D17C0E082DB8BDE400BD3C64 /* Sources */,
+				D17C0E092DB8BDE400BD3C64 /* Frameworks */,
+				D17C0E0A2DB8BDE400BD3C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D17C0E0E2DB8BDE400BD3C64 /* Portal */,
+			);
+			name = Portals;
+			packageProductDependencies = (
+				D1FF3B212DC8B92B002D5608 /* Sparkle */,
+			);
+			productName = Portal;
+			productReference = D17C0E0C2DB8BDE400BD3C64 /* Portals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D17C0E1B2DB8BDE600BD3C64 /* PortalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17C0E332DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "PortalsTests" */;
+			buildPhases = (
+				D17C0E182DB8BDE600BD3C64 /* Sources */,
+				D17C0E192DB8BDE600BD3C64 /* Frameworks */,
+				D17C0E1A2DB8BDE600BD3C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17C0E1E2DB8BDE600BD3C64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D17C0E1F2DB8BDE600BD3C64 /* PortalTests */,
+			);
+			name = PortalsTests;
+			packageProductDependencies = (
+			);
+			productName = PortalTests;
+			productReference = D17C0E1C2DB8BDE600BD3C64 /* PortalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D17C0E252DB8BDE600BD3C64 /* PortalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17C0E362DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "PortalsUITests" */;
+			buildPhases = (
+				D17C0E222DB8BDE600BD3C64 /* Sources */,
+				D17C0E232DB8BDE600BD3C64 /* Frameworks */,
+				D17C0E242DB8BDE600BD3C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17C0E282DB8BDE600BD3C64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D17C0E292DB8BDE600BD3C64 /* PortalUITests */,
+			);
+			name = PortalsUITests;
+			packageProductDependencies = (
+			);
+			productName = PortalUITests;
+			productReference = D17C0E262DB8BDE600BD3C64 /* PortalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17C0E042DB8BDE400BD3C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D17C0E0B2DB8BDE400BD3C64 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D17C0E1B2DB8BDE600BD3C64 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D17C0E0B2DB8BDE400BD3C64;
+					};
+					D17C0E252DB8BDE600BD3C64 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D17C0E0B2DB8BDE400BD3C64;
+					};
+				};
+			};
+			buildConfigurationList = D17C0E072DB8BDE400BD3C64 /* Build configuration list for PBXProject "Portals" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				fr,
+				nl,
+				"zh-Hans",
+			);
+			mainGroup = D17C0E032DB8BDE400BD3C64;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D17C0E0D2DB8BDE400BD3C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17C0E0B2DB8BDE400BD3C64 /* Portals */,
+				D17C0E1B2DB8BDE600BD3C64 /* PortalsTests */,
+				D17C0E252DB8BDE600BD3C64 /* PortalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17C0E0A2DB8BDE400BD3C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E1A2DB8BDE600BD3C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E242DB8BDE600BD3C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17C0E082DB8BDE400BD3C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E182DB8BDE600BD3C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C0E222DB8BDE600BD3C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D17C0E1E2DB8BDE600BD3C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17C0E0B2DB8BDE400BD3C64 /* Portals */;
+			targetProxy = D17C0E1D2DB8BDE600BD3C64 /* PBXContainerItemProxy */;
+		};
+		D17C0E282DB8BDE600BD3C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17C0E0B2DB8BDE400BD3C64 /* Portals */;
+			targetProxy = D17C0E272DB8BDE600BD3C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D17C0E2E2DB8BDE600BD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D17C0E2F2DB8BDE600BD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		D17C0E312DB8BDE600BD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portal/Portal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.Portals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D17C0E322DB8BDE600BD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portal/Portal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.Portals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D17C0E342DB8BDE600BD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.PortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portals";
+			};
+			name = Debug;
+		};
+		D17C0E352DB8BDE600BD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.PortalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portals";
+			};
+			name = Release;
+		};
+		D17C0E372DB8BDE600BD3C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.PortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portal;
+			};
+			name = Debug;
+		};
+		D17C0E382DB8BDE600BD3C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U8W3XYWRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidev.PortalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17C0E072DB8BDE400BD3C64 /* Build configuration list for PBXProject "Portals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C0E2E2DB8BDE600BD3C64 /* Debug */,
+				D17C0E2F2DB8BDE600BD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17C0E302DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "Portals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C0E312DB8BDE600BD3C64 /* Debug */,
+				D17C0E322DB8BDE600BD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17C0E332DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "PortalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C0E342DB8BDE600BD3C64 /* Debug */,
+				D17C0E352DB8BDE600BD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17C0E362DB8BDE600BD3C64 /* Build configuration list for PBXNativeTarget "PortalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C0E372DB8BDE600BD3C64 /* Debug */,
+				D17C0E382DB8BDE600BD3C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1FF3B212DC8B92B002D5608 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D17C0E042DB8BDE400BD3C64 /* Project object */;
+}
