@@ -3,12 +3,12 @@
     <channel>
         <title>Portals</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Tue, 06 May 2025 10:44:16 +0900</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/yidev0/Portals/releases/download/v1.0/Portals.dmg" length="2501122" type="application/octet-stream" sparkle:edSignature="lt5GbLJN7AOvnqvcff9rPC+DI4bqiopCniMbo1x2d8/xpl+UafPIb0f3rzgNaM3AIDCTYXgVeRRbUfwf4p57CA=="/>
+            <title>1.0.1</title>
+            <pubDate>Tue, 06 May 2025 12:27:00 +0900</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/yidev0/Portals/releases/download/v1.0.1/Portals.dmg" length="2504298" type="application/octet-stream" sparkle:edSignature="JQ/3AlfDmSRwJlmm+XuA9Gmi2Y2HC6uIA+vTm1mHRuQiz59oDgWdzWZ7GEq+oe8jUXkWVuLOqK3+XY9SsiwOAA=="/>
         </item>
     </channel>
 </rss>
