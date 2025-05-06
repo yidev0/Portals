@@ -11,6 +11,8 @@ import Sparkle
 struct CheckUpdateButton: View {
     
     @State var showUpdateLabel: Bool = false
+    @ObservedObject private var checkForUpdatesViewModel: CheckForUpdatesViewModel
+    
     private let updaterController: SPUStandardUpdaterController
     
     init() {
@@ -18,6 +20,9 @@ struct CheckUpdateButton: View {
             startingUpdater: true,
             updaterDelegate: nil,
             userDriverDelegate: nil
+        )
+        checkForUpdatesViewModel = CheckForUpdatesViewModel(
+            updater: updaterController.updater
         )
     }
     

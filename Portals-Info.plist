@@ -7,7 +7,7 @@
 	<key>SUEnableDownloaderService</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>https://yidev0.github.io./Portals/appcast.xml</string>
+	<string>https://yidev0.github.io/Portals/appcast.xml</string>
 	<key>SUPublicEDKey</key>
 	<string>itHx3LvN8kf8h7eMvVcDRyp6stL0kVE86iyyNsd5m1w=</string>
 </dict>
