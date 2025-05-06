@@ -31,11 +31,14 @@ struct CheckUpdateButton: View {
             updaterController.updater.checkForUpdates()
         } label: {
             Text("Check for Updates")
-                .foregroundStyle(.secondary)
                 .opacity(showUpdateLabel ? 1 : 0)
             Image(systemName: "circle.fill")
+                .resizable()
+                .frame(width: 10, height: 10)
+                .foregroundStyle(.secondary)
         }
         .buttonStyle(.borderless)
+        .buttonBorderShape(.buttonBorder)
         .onHover { hovering in
             showUpdateLabel = hovering
         }
