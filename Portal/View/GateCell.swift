@@ -51,6 +51,7 @@ struct GateCell: View {
                 }
                 .buttonStyle(.bordered)
                 .accessibilityLabel("Copy Link")
+                .help("Copy Link")
                 
                 Menu {
                     ForEach(browserList, id: \.identifier) { browser in
@@ -62,6 +63,7 @@ struct GateCell: View {
                     openURL.callAsFunction(gate.url)
                 }
                 .aspectRatio(contentMode: .fit)
+                .help("Open")
             } else {
                 EmptyView()
             }
