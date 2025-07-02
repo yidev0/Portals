@@ -39,7 +39,7 @@ struct AppOpener {
                     )
                 }
                 return nil
-            }
+            }.sorted { $0.name < $1.name }
         }
         return []
     }
