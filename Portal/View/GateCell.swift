@@ -50,6 +50,7 @@ struct GateCell: View {
                     Image(systemName: "link")
                 }
                 .buttonStyle(.bordered)
+                .accessibilityLabel("Copy Link")
                 
                 Menu {
                     ForEach(browserList, id: \.identifier) { browser in

@@ -36,12 +36,13 @@ struct GateListView: View {
                 
                 Section {
                     GateCreateCell()
+                        .padding(.top, 4)
+                        .padding(.bottom, 2)
                 }
-                .padding(.top, 4)
-                .padding(.bottom, 2)
             }
             .listStyle(.plain)
             .scrollIndicators(.hidden)
+            .listRowSeparatorTint(Color(.separatorColor))
         }
     }
 

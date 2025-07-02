@@ -11,7 +11,9 @@ import SwiftData
 struct ContentView: View {
     
     var body: some View {
-        GateListView()
+            GateListView()
+                .scrollContentBackground(.hidden)
+                .background(.thinMaterial)
     }
 }
 
