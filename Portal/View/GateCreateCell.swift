@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Sparkle
 
 struct GateCreateCell: View {
     
@@ -55,8 +54,6 @@ struct GateCreateCell: View {
             }
             
             Spacer()
-            
-            CheckUpdateButton()
         }
         .animation(.default, value: showLabel)
     }

@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D1FF3B222DC8B92B002D5608 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = D1FF3B212DC8B92B002D5608 /* Sparkle */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		D17C0E1D2DB8BDE600BD3C64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -57,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FF3B222DC8B92B002D5608 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +114,6 @@
 			);
 			name = Portals;
 			packageProductDependencies = (
-				D1FF3B212DC8B92B002D5608 /* Sparkle */,
 			);
 			productName = Portal;
 			productReference = D17C0E0C2DB8BDE400BD3C64 /* Portals.app */;
@@ -208,7 +202,6 @@
 			mainGroup = D17C0E032DB8BDE400BD3C64;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D17C0E0D2DB8BDE400BD3C64 /* Products */;
@@ -576,25 +569,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D1FF3B212DC8B92B002D5608 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D1FF3B202DC8B92B002D5608 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D17C0E042DB8BDE400BD3C64 /* Project object */;
 }
